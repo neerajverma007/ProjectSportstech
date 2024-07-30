@@ -1,0 +1,75 @@
+@media (min-width:1441px) {
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .wrapper h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .wrapper p {
+        font-size: 22px;
+        line-height: 28px;
+        max-width: 100%;
+    }
+
+    span.tags {
+        font-size: 18px;
+    }
+
+    ul.listContent i {
+        font-size: 24px;
+    }
+
+    .NumberCount ul li h6 {
+        font-size: 80px;
+    }
+
+    .NumberCount ul li p {
+        font-size: 20px !important;
+        font-weight: 500;
+        line-height: 22px !important;
+    }
+
+    .leftContent h6 {
+        width: 100%;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .circleImage.withContent p {
+        font-size: 20px;
+    }
+
+    .circleImage.withContent {
+        column-gap: 25px;
+    }
+
+    .wrapper.withMovingText p,
+    .wrapper.withRightContent p {
+        font-size: 28px;
+        line-height: 35px;
+        max-width: 70%;
+    }
+
+    .circleImage img {
+        height: 250px;
+        object-fit: contain;
+    }
+
+    .circleImage.withContent img {
+        height: 120px !important;
+        object-fit: contain;
+    }
+
+    .textCircle-wrapper {
+        row-gap: 300px;
+    }
+
+    .wrapper.withMovingText {
+        height: 200vh;
+        padding-block: 100px;
+    }
+}
